@@ -3,21 +3,18 @@ $(function() {
     setTimeout(function() {
         $('.overlay').hide();
     }, 0);
-    $('.opening').fadeIn(2500);
+    $('.opening').fadeIn(2000);
     setTimeout(function() {
         $('.cute').fadeIn('slow');
-    }, 2000);
-    setTimeout(function() {
-        $('#msg').fadeIn('fast');
-    }, 3000);
-    setTimeout(function() {
-        $('#splash').fadeOut();
-        $('.overlay').show();
-    }, 6000);
-    
-    $(window).keydown(function() {
-        $('.overlay').show();
-        $('#splash').fadeOut('slow');
-    });
+    }, 1500);
+
+    setTimeout(restore, 4000);
+    $(window).keydown(restore);
+    $(window).click(restore);
     
 });
+
+function restore() {
+    $('.overlay').show();
+    $('#splash').fadeOut('slow');
+}

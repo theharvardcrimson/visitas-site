@@ -33,11 +33,11 @@
 
 
 #msg {
-	display: none;
 	color: #FFF;
-	margin: auto;
+	margin-left: 10px;
 	position: absolute;
 	bottom: 10px;
+	cursor: pointer;
 }
 
 .cute{
