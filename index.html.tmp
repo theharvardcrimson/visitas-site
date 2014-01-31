@@ -1,5 +1,21 @@
 {% extends "base.html.tmp" %}
 
+{% block css %}
+	<link href="homepage.css" rel="stylesheet" type="text/css" />
+{% endblock %}
+
+{% block js %}
+	<script src="animation.js"> </script>
+{% endblock %}
+
+{% block addl_html %}
+<div id="splash">
+    <div class="opening"><img src="logo.png" width="80%"></div>
+    <div class="cute"><em>Cute motto here/catchy phrase? maybe? blah blah blah actually maybe not. blehhh</em></div>
+    <span id="msg">Click here or press any key to continue</span>
+</div>
+{% endblock %}
+
 {% block content %}
 	<div class="overlay">
 		<div class="page-title">
@@ -29,10 +45,10 @@
 					Come see for yourself!
 				</p>
 				<p>
-					<b>General Open Houses:</b><br>Monday, February 3 and Wednesday, February 5 from 7-9 p.m.
+					<strong>General Open Houses:</strong><br>Monday, February 3 and Wednesday, February 5 from 7-9 p.m.
 				</p>
 				<p>
-					<b>Tech + Online Design:</b><br>Thursday, February 6 from 7-9 p.m.
+					<strong>Tech + Online Design:</strong><br>Thursday, February 6 from 7-9 p.m.
 				</p>
 				<h3>
 					FINANCIAL AID

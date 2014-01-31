@@ -1,5 +1,11 @@
-html {
+#splash {
 	background: #8B0000;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 .opening{
@@ -26,7 +32,7 @@ html {
 }
 
 
-#link {
+#msg {
 	display: none;
 	color: #FFF;
 	margin: auto;
