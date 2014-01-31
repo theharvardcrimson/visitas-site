@@ -1,82 +1,120 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link href="temp.css" rel="stylesheet" type="text/css" />
-		<link href="css/fonts.css" rel="stylesheet" type="text/css" />
-	<title>Arts Comp</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <title>The Harvard Crimson | Technology Comp</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            // Activate mobile-friendly menu when clicking Sections link.
+            $('#masthead-nav-mobile a').click(function(e) {
+                e.preventDefault();
+                var nav = $('#masthead-nav');
+                var opening = nav.css('display') == 'none' || nav.is(':hidden');
+                nav.stop().slideToggle(300);
+                if (opening)
+                    $('#masthead-nav-mobile').stop().animate({boxShadow: '3px 3px 10px #aaaaaa'}, 100);
+                else
+                    $('#masthead-nav-mobile').stop().animate({boxShadow: 'none'}, 200);
+            });
+
+            $(window).resize(function() {
+                if ($(window).width() >= 480) {
+                    $('#masthead-nav').removeAttr('style');
+                }
+            });
+
+        });
+    </script>
 </head>
-<body id="biz">
-	<header>
-	<div class="hwrapper">
-		<a class="logo" href="http://www.thecrimson.com/"><img src="logo.png" height="25" ></a></a>
-		<ul class="header-nav">
+<body>
+    <script type="text/javascript">
+      var _gaq=_gaq || [];
+      _gaq.push(['_setAccount', 'UA-33870617-1']);
+      _gaq.push(['_trackPageview']);
 
-			<li><a href="temp.html"> About Us </a> </li> 
-			<li><a href="news.html"> News </a> </li> 
-			<li><a href="biz.html"> Business </a></li>
-			<li><a href="tech.html"> Tech </a></li>
-			<li><a href="ed.html"> Editorial </a></li>
-			<li><a href="flyby.html"> Flyby </a></li>
-			<li class="active"><a href="arts.html"> Arts </a></li>
-			<li><a href="design.html"> Design </a></li>
-			<li><a href="od.html"> Online Design </a></li>
-			<li><a href="mag.html"> FM </a></li>
-			<li><a href="multi.html"> Multimedia </a></li>
-			<li><a href="sports.html"> Sports </a></li>
+      (function() {
+        var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true;
+        ga.src=('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <header>
+        <div id="masthead">
+            <div id="masthead-first-wrapper">
+                <div id="masthead-first">
+                    <div id="masthead-first-container">
+                        <h1><a href="/">The Harvard Crimson</a></h1>
+                    </div>
+                </div>
+            </div>
+            <div id="masthead-second">
+                <nav id="masthead-nav-mobile">
+                    <ul>
+                        <li><a href="#">Navigation</a></li>
+                    </ul>
+                </nav>
+                <nav id="masthead-nav" class="mobile-hidden">
+                    <ul>
+                        <li>
+                            <a href="index.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="arts.html">Arts</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="biz.html">Business</a>
+                        </li>
+                        <li>
+                            <a href="design.html">Design</a>
+                        </li>
+                        <li>
+                            <a href="ed.html">Editorial</a>
+                        </li>
+                        <li>
+                            <a href="mag.html">Magazine</a>
+                        </li>
+                        <li>
+                            <a href="news.html">News</a>
+                        </li>
+                        <li>
+                            <a href="od.html">Online Design</a>
+                        </li>
+                        <li>
+                            <a href="multi.html">Multimedia</a>
+                        </li>
+                        <li>
+                            <a href="sports.html">Sports</a>
+                        </li>
+                        <li>
+                            <a href="tech.html">Tech</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-
-		</ul>
+    
+	<div class="overlay">
+		<div class="page-title">
+			<h1>technology</h1>
+		</div>
+		<div>
+			<div class="text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, atque, omnis, illum nam error architecto deserunt necessitatibus ullam vel officia quo quasi similique ea sapiente officiis quam ratione. Temporibus, corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, necessitatibus, ducimus, adipisci, asperiores iure nulla aliquam quaerat animi assumenda rem debitis voluptates eligendi quae ex commodi perferendis exercitationem nobis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus placeat assumenda in repudiandae fugit aspernatur alias omnis vero. Magnam fuga eum possimus quod molestiae doloremque veritatis consequatur voluptatum nemo qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, corporis, temporibus voluptates deserunt atque consectetur et fugiat amet excepturi molestias ipsam omnis autem facilis in reprehenderit voluptas necessitatibus quisquam nulla.
+				<br>
+				<br>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, sequi hic non repudiandae voluptatibus incidunt et officia ullam! Tenetur, eos omnis veritatis perferendis ratione temporibus sed maxime dolorem eius saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quos, dolor consectetur culpa ea sequi rem odit temporibus ducimus qui quia dignissimos eius debitis fugiat suscipit harum iusto! Cumque, aut!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure laudantium aspernatur necessitatibus totam eaque dolorem velit ad dignissimos consequuntur rem aut laboriosam similique eum quisquam obcaecati aliquam quibusdam nihil?
+			</div>
+		</div>
 	</div>
-	</header>
-
-	<div class="top"><div class="test">Arts</div></div>
-
-			<div class="lines"></div>
-		<div class="vertical"></div>
-
-	<div class="bodycontent" id="bottom">
-
-			
-
-		<div class="testpt2"> <div>
-
-			<div class="testpt5"> Why Arts?</div> <br>
-							<div class="fml">
-
-			<div class="special">"We know what art is! It's paintings of horses!" </div><!-- <br> -->
-			— Jack Donaghy, 30 Rock
-			
-			<br><br>
-
-			The Arts Board of The Crimson is responsible for covering artistic events, whether they take place on campus, in Boston, or on the national stage. From reviewing shows before they hit Broadway to sitting down for an interview with Will Ferrell, the Arts Board of The Crimson offers writers and compers an array of unique opportunities–all of them totally free.
-			<br><br>
-			Our comp is designed to teach you everything you will need to know as a writer, from interviewing techniques to crafting a perfect lede. We welcome everyone regardless of your level of previous experience with journalism. In addition to our seminars and meetings, we also hold Happy Hours and other social events to let you get to know our writers and execs. In addition to giving writers free access to a ton of amazing events, the Arts Board of The Crimson is also just a great group of people, and if you'd like to join us, we'd love to have you.
-
-			<br><br>
-
-			 Articles are pitched out by editors at our weekly Writers’ Meetings, which take place on Mondays at 7 PM in the Sanctum of the Crimson’s building.
-			<br><br>
-			In addition to writing articles, compers must attend our weekly comp seminars at 6 PM on Mondays in the Sanctum (i.e., directly before Writers' Meetings). At these seminars we’ll teach you everything you need to know about arts writing, even if you have never written a complete sentence. We'll also have fun.
-			<br><br>
-			Did you start comping arts but got distracted? It’s cool. We’ve kept track of everything you’ve already written and the articles still count towards your comp. Come back soon. We miss you.
-			<br><br>
-			Questions? Comments? Strong opinions about Bruce Springsteen? Email comp directors Abby L. Noyes and Emma Adler at abbigaile.noyes@thecrimson.com andemma.adler@thecrimson.com, respectively.
-			<br><br>
-			</div>
-		</div>
-		</div>
-	<div class="text"> <div>
-				<div class="testpt3"> Requirements</div>
-				<div class="testpt4">TBA
-
-				</div>
-			</div>
-		</div>
 
 
 </body>
 </html>
-
-
-
