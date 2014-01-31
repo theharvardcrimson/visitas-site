@@ -1,0 +1,45 @@
+html {
+	background: #8B0000;
+}
+
+.opening{
+	display: none;
+	padding-top: 200px;
+	margin: auto;
+}
+
+.opening img{
+	margin: auto;
+	margin-left: 100px;
+	position: center;
+}
+
+
+
+#logo{
+	float: left;
+	padding: 7px 0 9px;
+}
+
+#logo img {
+	vertical-align: middle;
+}
+
+
+#link {
+	display: none;
+	color: #FFF;
+	margin: auto;
+	position: absolute;
+	bottom: 10px;
+}
+
+.cute{
+	display: none;
+	color: #FFF;
+	position: relative;
+	text-align: right;
+	margin-right: 5%;
+	text-decoration: italic;
+	font-family: 'Colaborate Thin';
+}
