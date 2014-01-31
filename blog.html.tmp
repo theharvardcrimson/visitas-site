@@ -3,14 +3,22 @@
 {% block content %}
 	<div class="overlay">
 		<div class="page-title">
-			<h1>technology</h1>
+			<h1>blog</h1>
 		</div>
 		<div>
 			<div class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, atque, omnis, illum nam error architecto deserunt necessitatibus ullam vel officia quo quasi similique ea sapiente officiis quam ratione. Temporibus, corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, necessitatibus, ducimus, adipisci, asperiores iure nulla aliquam quaerat animi assumenda rem debitis voluptates eligendi quae ex commodi perferendis exercitationem nobis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus placeat assumenda in repudiandae fugit aspernatur alias omnis vero. Magnam fuga eum possimus quod molestiae doloremque veritatis consequatur voluptatum nemo qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, corporis, temporibus voluptates deserunt atque consectetur et fugiat amet excepturi molestias ipsam omnis autem facilis in reprehenderit voluptas necessitatibus quisquam nulla.
-				<br>
-				<br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, sequi hic non repudiandae voluptatibus incidunt et officia ullam! Tenetur, eos omnis veritatis perferendis ratione temporibus sed maxime dolorem eius saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quos, dolor consectetur culpa ea sequi rem odit temporibus ducimus qui quia dignissimos eius debitis fugiat suscipit harum iusto! Cumque, aut!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure laudantium aspernatur necessitatibus totam eaque dolorem velit ad dignissimos consequuntur rem aut laboriosam similique eum quisquam obcaecati aliquam quibusdam nihil?
+				<p>
+					Are you hilarious? Witty? Mildly interesting to be around? If any of these apply to you, Blog is the place to be. We cover a variety of content, from Roving Reporter videos to House rankings to posts dedicated to our one and only Interim Dean Pfister (which we recently learned he enjoys reading!). Blog is one of the most well-read sections of The Crimson, and our posts have been picked up by national and international news outlets.
+				</p>
+				<p>
+					<b>Flyby</b> is the flagship blog of the Crimson and covers student life&mdash;we follow all things happening on campus, from Lamont to the Spee, and allow you to write about what most interests you.
+				</p>
+				<p>
+					The Crimson also has an <b>Admissions</b> Blog, which focuses directly on the college admissions process, getting to the heart of issues and giving advice to a worldwide audience looking to learn more about the world of college admissions.
+				</p>
+				<p>
+					Whatever your interests (journalism, satire, Andre, etc.), Blog will give you the space, training, and support to develop your own creative passions at 14p&mdash;just so long as it doesn&#39;t involve actual paper. But don&#39;t worry: we&#39;ll have gifs.
+				</p>
 			</div>
 		</div>
 	</div>

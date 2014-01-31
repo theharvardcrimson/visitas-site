@@ -3,14 +3,16 @@
 {% block content %}
 	<div class="overlay">
 		<div class="page-title">
-			<h1>technology</h1>
+			<h1>magazine</h1>
 		</div>
 		<div>
 			<div class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, atque, omnis, illum nam error architecto deserunt necessitatibus ullam vel officia quo quasi similique ea sapiente officiis quam ratione. Temporibus, corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, necessitatibus, ducimus, adipisci, asperiores iure nulla aliquam quaerat animi assumenda rem debitis voluptates eligendi quae ex commodi perferendis exercitationem nobis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus placeat assumenda in repudiandae fugit aspernatur alias omnis vero. Magnam fuga eum possimus quod molestiae doloremque veritatis consequatur voluptatum nemo qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, corporis, temporibus voluptates deserunt atque consectetur et fugiat amet excepturi molestias ipsam omnis autem facilis in reprehenderit voluptas necessitatibus quisquam nulla.
-				<br>
-				<br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, sequi hic non repudiandae voluptatibus incidunt et officia ullam! Tenetur, eos omnis veritatis perferendis ratione temporibus sed maxime dolorem eius saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quos, dolor consectetur culpa ea sequi rem odit temporibus ducimus qui quia dignissimos eius debitis fugiat suscipit harum iusto! Cumque, aut!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure laudantium aspernatur necessitatibus totam eaque dolorem velit ad dignissimos consequuntur rem aut laboriosam similique eum quisquam obcaecati aliquam quibusdam nihil?
+				<p>
+					If you&#39;ve ever wanted to write articles but aren&#39;t sure where among News, Arts, Sports, or Editorial your interests align, look no further than <b>Fifteen Minutes</b>, the Crimson&#39;s weekly magazine. FM&#39;s content ranges from short, humorous pieces to in-depth profiles and features: it's a veritable cornucopia of content. Oh, and we almost forgot: scrutinies. They&#39;re our weekly cover stories, and consistently rank among the most read articles on Crimson website. One word, three syllables: exposure.
+				</p>
+				<p>
+					There are a number of reasons you should comp Fifteen Minutes. We have the most freeform pieces, giving you ample opportunity to experiment and grow as a writer. Ask any writer who&#39;s comped multiple boards of the Crimson, and he/she will tell you that the FM comp is by far the most enjoyable. You&#39;re going to interact with other writers who are fascinated with their craft, and you&#39;re going to learn from them&mdash;whether you like it or not. We really hope you will.
+				</p>
 			</div>
 		</div>
 	</div>
