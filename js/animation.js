@@ -10,7 +10,7 @@ $(function() {
             $('.cute').fadeIn('slow');
         }, 1500);
 
-        setTimeout(restore, 6000);
+        setTimeout(restore, 4000);
         $(window).keydown(restore);
         $(window).click(restore);
         createCookie('visited', 'true',  1);
@@ -19,7 +19,7 @@ $(function() {
 
 function restore() {
     $('.overlay').show();
-    $('#splash').fadeOut('slow');
+    $('#splash').fadeOut(1500);
 }
 
 // From http://stackoverflow.com/questions/6561687/
