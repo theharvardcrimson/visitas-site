@@ -2,33 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/fonts.css" rel="stylesheet" type="text/css" />
     {% block css %}{% endblock %}
     <title>The Harvard Crimson | Technology Comp</title>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <script>
-        $(document).ready(function() {
-            // Activate mobile-friendly menu when clicking Sections link.
-            $('#masthead-nav-mobile a').click(function(e) {
-                e.preventDefault();
-                var nav = $('#masthead-nav');
-                var opening = nav.css('display') == 'none' || nav.is(':hidden');
-                nav.stop().slideToggle(300);
-                if (opening)
-                    $('#masthead-nav-mobile').stop().animate({boxShadow: '3px 3px 10px #aaaaaa'}, 100);
-                else
-                    $('#masthead-nav-mobile').stop().animate({boxShadow: 'none'}, 200);
-            });
-
-            $(window).resize(function() {
-                if ($(window).width() >= 480) {
-                    $('#masthead-nav').removeAttr('style');
-                }
-            });
-
-        });
-    </script>
+    <script src="/js/main.js"></script>
     {% block js %}{% endblock %}
 </head>
 <body>
@@ -69,80 +48,80 @@
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/arts.html" %}
-                                <a class="active" href="/arts.html">Arts</a>
+                            {% if __path__ ==  "/arts/" %}
+                                <a class="active" href="/arts/">Arts</a>
                             {% else %}
-                                <a href="/arts.html">Arts</a>
+                                <a href="/arts/">Arts</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/blog.html" %}
-                                <a class="active" href="/blog.html">Blog</a>
+                            {% if __path__ ==  "/blog/" %}
+                                <a class="active" href="/blog/">Blog</a>
                             {% else %}
-                                <a href="/blog.html">Blog</a>
+                                <a href="/blog/">Blog</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/biz.html" %}
-                                <a class="active" href="/biz.html">Business</a>
+                            {% if __path__ ==  "/biz/" %}
+                                <a class="active" href="/biz/">Business</a>
                             {% else %}
-                                <a href="/biz.html">Business</a>
+                                <a href="/biz/">Business</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/design.html" %}
-                                <a class="active" href="/design.html">Design</a>
+                            {% if __path__ ==  "/design/" %}
+                                <a class="active" href="/design/">Design</a>
                             {% else %}
-                                <a href="/design.html">Design</a>
+                                <a href="/design/">Design</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/ed.html" %}
-                                <a class="active" href="/ed.html">Editorial</a>
+                            {% if __path__ ==  "/ed/" %}
+                                <a class="active" href="/ed/">Editorial</a>
                             {% else %}
-                                <a href="/ed.html">Editorial</a>
+                                <a href="/ed/">Editorial</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/mag.html" %}
-                                <a class="active" href="/mag.html">Magazine</a>
+                            {% if __path__ ==  "/mag/" %}
+                                <a class="active" href="/mag/">Magazine</a>
                             {% else %}
-                                <a href="/mag.html">Magazine</a>
+                                <a href="/mag/">Magazine</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/news.html" %}
-                                <a class="active" href="/news.html">News</a>
+                            {% if __path__ ==  "/news/" %}
+                                <a class="active" href="/news/">News</a>
                             {% else %}
-                                <a href="/news.html">News</a>
+                                <a href="/news/">News</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/od.html" %}
-                                <a class="active" href="/od.html">Online Design</a>
+                            {% if __path__ ==  "/od/" %}
+                                <a class="active" href="/od/">Online Design</a>
                             {% else %}
-                                <a href="/od.html">Online Design</a>
+                                <a href="/od/">Online Design</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/multi.html" %}
-                                <a class="active" href="/multi.html">Multimedia</a>
+                            {% if __path__ ==  "/multi/" %}
+                                <a class="active" href="/multi/">Multimedia</a>
                             {% else %}
-                                <a href="/multi.html">Multimedia</a>
+                                <a href="/multi/">Multimedia</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/sports.html" %}
-                                <a class="active" href="/sports.html">Sports</a>
+                            {% if __path__ ==  "/sports/" %}
+                                <a class="active" href="/sports/">Sports</a>
                             {% else %}
-                                <a href="/sports.html">Sports</a>
+                                <a href="/sports/">Sports</a>
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/tech.html" %}
-                                <a class="active" href="/tech.html">Tech</a>
+                            {% if __path__ ==  "/tech/" %}
+                                <a class="active" href="/tech/">Tech</a>
                             {% else %}
-                                <a href="/tech.html">Tech</a>
+                                <a href="/tech/">Tech</a>
                             {% endif %}
                         </li>
                     </ul>

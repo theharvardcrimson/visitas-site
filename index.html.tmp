@@ -1,11 +1,11 @@
 {% extends "base.html.tmp" %}
 
 {% block css %}
-	<link href="homepage.css" rel="stylesheet" type="text/css" />
+	<link href="/css/homepage.css" rel="stylesheet" type="text/css" />
 {% endblock %}
 
 {% block js %}
-	<script src="animation.js"> </script>
+	<script src="/js/animation.js"> </script>
 {% endblock %}
 
 {% block addl_html %}
