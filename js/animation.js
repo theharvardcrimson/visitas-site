@@ -10,7 +10,7 @@ $(function() {
             $('.cute').fadeIn('slow');
         }, 1500);
 
-        setTimeout(restore, 4000);
+        setTimeout(restore, 6000);
         $(window).keydown(restore);
         $(window).click(restore);
         createCookie('visited', 'true',  1);

@@ -14,7 +14,7 @@
         <img id="logo" src="/images/logo.svg">
         <div>The Harvard Crimson</div>
     </div>
-    <div class="cute"><em>Cute motto here/catchy phrase? maybe? blah blah blah actually maybe not. blehhh</em></div>
+    <div class="cute"><em></em></div>
     <span id="msg">Click or press any key to continue</span>
 </div>
 {% endblock %}
