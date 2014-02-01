@@ -62,40 +62,88 @@
                 <nav id="masthead-nav" class="mobile-hidden">
                     <ul>
                         <li>
-                            <a href="/">About Us</a>
+                            {% if __path__ ==  "/" %}
+                                <a class="active" href="/">About Us</a>
+                            {% else %}
+                                <a href="/">About Us</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/arts.html">Arts</a>
+                            {% if __path__ ==  "/arts.html" %}
+                                <a class="active" href="/arts.html">Arts</a>
+                            {% else %}
+                                <a href="/arts.html">Arts</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/blog.html">Blog</a>
+                            {% if __path__ ==  "/blog.html" %}
+                                <a class="active" href="/blog.html">Blog</a>
+                            {% else %}
+                                <a href="/blog.html">Blog</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/biz.html">Business</a>
+                            {% if __path__ ==  "/biz.html" %}
+                                <a class="active" href="/biz.html">Business</a>
+                            {% else %}
+                                <a href="/biz.html">Business</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/design.html">Design</a>
+                            {% if __path__ ==  "/design.html" %}
+                                <a class="active" href="/design.html">Design</a>
+                            {% else %}
+                                <a href="/design.html">Design</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/ed.html">Editorial</a>
+                            {% if __path__ ==  "/ed.html" %}
+                                <a class="active" href="/ed.html">Editorial</a>
+                            {% else %}
+                                <a href="/ed.html">Editorial</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/mag.html">Magazine</a>
+                            {% if __path__ ==  "/mag.html" %}
+                                <a class="active" href="/mag.html">Magazine</a>
+                            {% else %}
+                                <a href="/mag.html">Magazine</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/news.html">News</a>
+                            {% if __path__ ==  "/news.html" %}
+                                <a class="active" href="/news.html">News</a>
+                            {% else %}
+                                <a href="/news.html">News</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/od.html">Online Design</a>
+                            {% if __path__ ==  "/od.html" %}
+                                <a class="active" href="/od.html">Online Design</a>
+                            {% else %}
+                                <a href="/od.html">Online Design</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/multi.html">Multimedia</a>
+                            {% if __path__ ==  "/multi.html" %}
+                                <a class="active" href="/multi.html">Multimedia</a>
+                            {% else %}
+                                <a href="/multi.html">Multimedia</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/sports.html">Sports</a>
+                            {% if __path__ ==  "/sports.html" %}
+                                <a class="active" href="/sports.html">Sports</a>
+                            {% else %}
+                                <a href="/sports.html">Sports</a>
+                            {% endif %}
                         </li>
                         <li>
-                            <a href="/tech.html">Tech</a>
+                            {% if __path__ ==  "/tech.html" %}
+                                <a class="active" href="/tech.html">Tech</a>
+                            {% else %}
+                                <a href="/tech.html">Tech</a>
+                            {% endif %}
                         </li>
                     </ul>
                 </nav>

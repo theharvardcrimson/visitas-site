@@ -10,7 +10,10 @@
 
 {% block addl_html %}
 <div id="splash">
-    <div class="opening"><img src="logo.png" width="80%"></div>
+    <div class="opening">
+        <img id="logo" src="/images/logo.svg">
+        <div>The Harvard Crimson</div>
+    </div>
     <div class="cute"><em>Cute motto here/catchy phrase? maybe? blah blah blah actually maybe not. blehhh</em></div>
     <span id="msg">Click or press any key to continue</span>
 </div>
