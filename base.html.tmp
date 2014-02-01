@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/fonts.css" rel="stylesheet" type="text/css" />
     {% block css %}{% endblock %}
     <title>The Harvard Crimson | Technology Comp</title>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
