@@ -3,14 +3,42 @@
 {% block content %}
 	<div class="overlay">
 		<div class="page-title">
-			<h1>technology</h1>
+			<h1>business</h1>
 		</div>
 		<div>
 			<div class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, atque, omnis, illum nam error architecto deserunt necessitatibus ullam vel officia quo quasi similique ea sapiente officiis quam ratione. Temporibus, corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, necessitatibus, ducimus, adipisci, asperiores iure nulla aliquam quaerat animi assumenda rem debitis voluptates eligendi quae ex commodi perferendis exercitationem nobis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus placeat assumenda in repudiandae fugit aspernatur alias omnis vero. Magnam fuga eum possimus quod molestiae doloremque veritatis consequatur voluptatum nemo qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, corporis, temporibus voluptates deserunt atque consectetur et fugiat amet excepturi molestias ipsam omnis autem facilis in reprehenderit voluptas necessitatibus quisquam nulla.
-				<br>
-				<br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, sequi hic non repudiandae voluptatibus incidunt et officia ullam! Tenetur, eos omnis veritatis perferendis ratione temporibus sed maxime dolorem eius saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quos, dolor consectetur culpa ea sequi rem odit temporibus ducimus qui quia dignissimos eius debitis fugiat suscipit harum iusto! Cumque, aut!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure laudantium aspernatur necessitatibus totam eaque dolorem velit ad dignissimos consequuntur rem aut laboriosam similique eum quisquam obcaecati aliquam quibusdam nihil?
+				<p>
+					Who makes this paper a million-dollar business? We do. Come see how you can help, and eventually transform, your chosen field. Advertising, Circulation, Contract Printing, and Operations are waiting for you!
+				</p>
+				<p>
+					The Harvard Crimson Business Board is the premier business experience on campus. Our editors gain hands-on experience from Day One, and go on to obtain some of the most competitive business, finance and consulting positions.
+				</p>
+
+				<p>Google? Check.</p>
+
+				<p>Goldman Sachs? Check.</p>
+
+				<p>McKinsey? Check.</p>
+
+				<p>
+					We train you in the skills you need to succeed both on and off campus&mdash;and give you the network to leverage those skills.
+				</p>
+
+				<p>
+					The culture of the Business Board has always proven unique and invigorating. Friendships are formed from the first day of the comp, and you&rsquo;ll find a closely-knit community, with fellow editors ready to offer advice and help on anything you need.
+				</p>
+				<p>
+					We work hard and play harder. Join the comp to find out for yourself!
+				</p>
+				<p>
+					The Business comp is not for the weak, but hey, we are a real business. It will be hard at times, but you&rsquo;ll learn a lot. And your resume will gain a couple really impressive lines: Who wouldn&rsquo;t want to hire a guy who sold $100,000 in advertisements as a college freshman?
+				</p>
+				<p>
+					Comp requirements cover all five departments in order to give you an appropriate exposure and a great variety of skills. Mandatory weekly meetings on Sunday evenings from 7 to 8 PM introduce you to the theory behind different aspects of the business, which you can then apply during regular business hours while interacting with our many clients or working on high-impact projects. Once elected to the board, you will be able to specialize in one department and shape it as you wish.
+				</p>
+				<p>
+					So let&rsquo;s cut to the chase&mdash;you should comp Business. If you have any questions, feel free to contact our Directors of Staff Development, Jess Li and Dean Shu, at <a href="mailto:jessica.li@thecrimson.com">jessica.li@thecrimson.com</a> and <a href="mailto:dean.shu@thecrimson.com">dean.shu@thecrimson.com</a>.
+				</p>
 			</div>
 		</div>
 	</div>

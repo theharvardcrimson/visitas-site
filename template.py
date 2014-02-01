@@ -23,7 +23,7 @@ for root, dirs, files in os.walk(cwd):
 			fname = root.replace(cwd, '')[1:] + '/' + f
 		else:
 			fname = f
-
+			
 		if not (f == "base.html.tmp" or f == __file__[2:]):
 			if fname.find('.html.tmp') != -1:
 				if fname != "index.html.tmp":
@@ -42,4 +42,6 @@ for root, dirs, files in os.walk(cwd):
 				if not os.path.exists(out_name[:out_name.rfind('/')]):
 					os.makedirs(out_name[:out_name.rfind('/')])
 			with open(out_name, 'w+') as out_file:
+				# try: print(contents[4600:4622])
+				# except: pass
 				out_file.write(contents)

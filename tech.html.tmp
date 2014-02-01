@@ -7,10 +7,32 @@
 		</div>
 		<div>
 			<div class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, atque, omnis, illum nam error architecto deserunt necessitatibus ullam vel officia quo quasi similique ea sapiente officiis quam ratione. Temporibus, corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, necessitatibus, ducimus, adipisci, asperiores iure nulla aliquam quaerat animi assumenda rem debitis voluptates eligendi quae ex commodi perferendis exercitationem nobis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus placeat assumenda in repudiandae fugit aspernatur alias omnis vero. Magnam fuga eum possimus quod molestiae doloremque veritatis consequatur voluptatum nemo qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, corporis, temporibus voluptates deserunt atque consectetur et fugiat amet excepturi molestias ipsam omnis autem facilis in reprehenderit voluptas necessitatibus quisquam nulla.
-				<br>
-				<br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, sequi hic non repudiandae voluptatibus incidunt et officia ullam! Tenetur, eos omnis veritatis perferendis ratione temporibus sed maxime dolorem eius saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quos, dolor consectetur culpa ea sequi rem odit temporibus ducimus qui quia dignissimos eius debitis fugiat suscipit harum iusto! Cumque, aut!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure laudantium aspernatur necessitatibus totam eaque dolorem velit ad dignissimos consequuntur rem aut laboriosam similique eum quisquam obcaecati aliquam quibusdam nihil?
+				<p>
+					While The Crimson has consistently published its content on paper for the past 141 years, the age of newsprint is quickly coming to close. As a result, the Technology department is becoming one of the most important and innovative places to be at The Crimson and at Harvard. In addition, the work we do on Tech will soon be the driver for The Crimson&rsquo;s primary revenue source as physical paper starts to become less relevant.
+				</p>
+				<p>
+					Working for Crimson Tech means that you&rsquo;re working on a website that sees 1.5 <em>million</em> pageviews per month. We run a django-based web app for <a href="http://www.thecrimson.com">thecrimson.com</a> as well as the various other technical needs of The Crimson. Whether you&rsquo;re into server infrastructure, database work, back-end coding, front-end coding, or almost anything else can you think of, we&rsquo;ve got a job for you. And if you've never coded before, you too can join tech and learn!
+				</p>
+				<p>
+					Recently, the tech department has:
+					<ul>
+						<li>Implemented a full-scale responsive redesign</li>
+						<li>Designed the back side of countless special web features like <a href="http://features.thecrimson.com/2013/frosh-survey/">the freshman survey</a></li>
+						<li>Automated the sending of the daily newsletter to speed up workflow</li>
+						<li>Developed a system to allow content to be fluidly embedded within articles</li>
+						<li>Built a framework to abstract the placement of article slots all over the site</li>
+						<li>In addition to countless more projects&hellip;
+					</ul>
+				</p>
+				<p>
+					The Tech Comp is designed to accommodate programmers with all levels of experience&mdash;many have joined the board before even finishing CS 50, and others have come on with years of web programming experience. We tailer the comp to the individual and make sure everyone learns the tools they need without repeating things people have already seen.
+				</p>
+				<p>
+					Think you might like to work for the best department on The Crimson? Come out to the tech open house on <strong>Thursday, February 6 from 7-9 p.m.</strong> at The Crimson (14 Plympton Street). If you have any questions or special circumstances you want to discuss, contact the Tech Managers and Comp Directors Ben Scharfstein and Victor Wu at <a href="mailto:ben.scharfstein@thecrimson.com">ben.scharfstein@thecrimson.com</a> and <a href="mailto:victor.wu@thecrimson.com">victor.wu@thecrimson.com</a>. (You can still comp if you miss the open house!)
+				</p>
+				<p>
+					Come make a difference and get your work seen!
+				</p>
 			</div>
 		</div>
 	</div>

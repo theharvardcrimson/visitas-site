@@ -104,10 +104,10 @@
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/multi/" %}
-                                <a class="active" href="/multi/">Multimedia</a>
+                            {% if __path__ ==  "/multimedia/" %}
+                                <a class="active" href="/multimedia/">Multimedia</a>
                             {% else %}
-                                <a href="/multi/">Multimedia</a>
+                                <a href="/multimedia/">Multimedia</a>
                             {% endif %}
                         </li>
                         <li>

@@ -3,14 +3,16 @@
 {% block content %}
 	<div class="overlay">
 		<div class="page-title">
-			<h1>technology</h1>
+			<h1>editorial</h1>
 		</div>
 		<div>
 			<div class="text">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, atque, omnis, illum nam error architecto deserunt necessitatibus ullam vel officia quo quasi similique ea sapiente officiis quam ratione. Temporibus, corrupti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, necessitatibus, ducimus, adipisci, asperiores iure nulla aliquam quaerat animi assumenda rem debitis voluptates eligendi quae ex commodi perferendis exercitationem nobis impedit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus placeat assumenda in repudiandae fugit aspernatur alias omnis vero. Magnam fuga eum possimus quod molestiae doloremque veritatis consequatur voluptatum nemo qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, corporis, temporibus voluptates deserunt atque consectetur et fugiat amet excepturi molestias ipsam omnis autem facilis in reprehenderit voluptas necessitatibus quisquam nulla.
-				<br>
-				<br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, sequi hic non repudiandae voluptatibus incidunt et officia ullam! Tenetur, eos omnis veritatis perferendis ratione temporibus sed maxime dolorem eius saepe?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quos, dolor consectetur culpa ea sequi rem odit temporibus ducimus qui quia dignissimos eius debitis fugiat suscipit harum iusto! Cumque, aut!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, iure laudantium aspernatur necessitatibus totam eaque dolorem velit ad dignissimos consequuntur rem aut laboriosam similique eum quisquam obcaecati aliquam quibusdam nihil?
+				<p>
+					Founded in 1911, the Editorial Board is the premier platform for opining at Harvard. We discuss everything from CS50 to global health initiatives, and if you like reading, writing, or just hearing yourself talk, we invite you to comp the Ed Board this semester! Comping the Editorial Board is the best way to have your opinions published in The Crimson, so comp Ed if you want your voice heard on campus and beyond.
+				</p>
+				<p>
+					Compers will learn to hone their writing and public speaking abilities as we discuss and opine on some of today&rsquo;s most pressing issues.
+				</p>
 			</div>
 		</div>
 	</div>
