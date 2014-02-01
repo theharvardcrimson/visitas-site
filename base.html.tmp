@@ -124,6 +124,9 @@
                                 <a href="/tech/">Tech</a>
                             {% endif %}
                         </li>
+                        <li>
+                            <a target="_blank" href="https://docs.google.com/forms/d/1wlKQrAa84aOAHrJU5_tXsXlw64JsjEJdJyIxarfQod4/viewform">Sign Up <img class="external" src="/images/external.png"></a>
+                        </li>
                     </ul>
                 </nav>
             </div>

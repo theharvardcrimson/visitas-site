@@ -171,6 +171,9 @@ Nav
 	box-shadow: 0 0 0 #fff;
 	background-color: rgba(244, 244, 244, 1);
 }
+img.external {
+	height: 12px;
+}
 
 
 

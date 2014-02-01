@@ -14,7 +14,7 @@
         <img id="logo" src="/images/logo.svg">
         <div>The Harvard Crimson</div>
     </div>
-    <div class="cute"><em></em></div>
+    <div class="cute"><em>Comp 2014</em></div>
     <span id="msg">Click or press any key to continue</span>
 </div>
 {% endblock %}
@@ -27,7 +27,7 @@
 		<div>
 			<div class="text">
 				<p>
-					Welcome to the Spring 2014 Comp of The Harvard Crimson. Whatever your passion is, we have eight different boards and 140 years of experience waiting for you at 14 Plympton St. The Crimson is not only breakfast-table daily newspaper in Cambridge, Mass. and the nation&#39;s oldest continuously published daily newspaper, but it&#39;s the premier student organization at Harvard College, offering transformative experience in everything from journalism, to advertising, to photography&mdash;the list goes on.
+					Welcome to the Spring 2014 Comp of The Harvard Crimson. Whatever your passion is, we have eight different boards and 140 years of experience waiting for you at 14 Plympton St. The Crimson is not only breakfast-table daily newspaper in Cambridge, Mass. and the nation&#39;s oldest continuously published daily newspaper, but it&#39;s the premier student organization at Harvard College, offering transformative experience in everything from journalism, to advertising, to photography&mdash;the list goes on. <a target="_blank" href="https://docs.google.com/forms/d/1wlKQrAa84aOAHrJU5_tXsXlw64JsjEJdJyIxarfQod4/viewform">Sign up to comp here.</a>
 				</p>
 				<p>
 					Don&#39;t believe us?
