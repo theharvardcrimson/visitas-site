@@ -1,0 +1,41 @@
+{% extends "base.html.tmp" %}
+
+{% block content %}
+	<div class="overlay">
+		<div class="page-title">
+			<h1>multimedia</h1>
+		</div>
+		<div>
+			<div class="text">
+				<p>
+					We are a team of dedicated and passionate photo- and video-journalists who love producing high quality content for The Crimson. Multimedia&#39;s photographs appear on the front page of The Crimson daily, and on the weekly Sports, Arts, and FM sections. Our videos air on thecrimson.com and have been featured on other sources such as Time, Business Insider, The Huffington Post, Boston Magazine, and Yahoo! News.
+				</p>
+				<p>
+					Joining Multimedia won&#39;t just add to your college experience, rather it will enhance and change how you see Harvard. Something that every one of our members will vouch for is the fact that Harvard students on Multimedia attend events that they never would have gone to in the first place. We have access to all Harvard sporting events and major campus happenings such as The Hasty Pudding&#39;s Man of The Year and Woman of the Year Roasts, headlining concerts in Boston and Cambridge, Cultural Rhythms, all campus theater and music productions, speeches by heads-of-state&hellip;the list continues.
+				</p>
+				<p>
+					Throughout the Multimedia Comp, you will learn:
+					<ul>
+						<li>
+							How to manually use a DSLR camera for taking both photographs and video footage, as well as using more complex video cameras and equipment. 
+						</li>
+						<li>
+							How to use Adobe Photoshop and Final Cut Pro. 
+						</li>
+						<li>
+							How to take editorial footage.
+						</li>
+						<li>
+							How to write effective captions.
+						</li>
+					</ul>
+				</p>
+				<p>
+					We also offer an Advanced Multimedia Comp for students that have experience with photography and/or videography. Advanced copers will not have to sit through meetings relearning information that they know - rather, they will build upon skills they already have and learn how to apply their skills in the field of journalism.
+					Whether you&#39;re someone who has only ever used the camera on your iPhone, or you&#39;re a VES concentrator working on a film thesis, there is a place for you on the Crimson&#39;s Multimedia board. 
+					In addition to everything mentioned above, you will have the opportunity to contribute to the nation&#39;s oldest continuously published daily college newspaper with a fantastic group of people&mdash;and have a great time doing it. We hope you join us.
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

@@ -1,0 +1,25 @@
+{% extends "base.html.tmp" %}
+
+{% block content %}
+	<div class="overlay">
+		<div class="page-title">
+			<h1>design</h1>
+		</div>
+		<div>
+			<div class="text">
+				<p>
+					The Design Comp teaches some of the most marketable skills around: layout with Adobe InDesign, photo manipulation with Adobe Photoshop, and graphic creation with Adobe Illustrator.
+				</p>
+				<p>
+					<b>Here&#39;s what we do:</b> The Design Board is responsible for the professional presentation of The Crimson&#39;s publications. This includes the front and feature pages of the daily paper as well as Arts, FM, Sports, Web and supplemental publications. We lay out pages and prepare all graphs and graphics.
+					The semester-long comp consists of weekly meetings, training sessions, supervised time for exercise completion, and social events within the Design Board and The Harvard Crimson! Compers engage in projects that allow them to showcase their new skills with Photoshop, InDesign, and Illustrator. Compers also work with editors when they first begin designing pages for publication. After graduating from the comp, newly elected editors work closely with one section of The Crimson (Sports, FM, Arts or the Daily). In addition to learning how The Crimson and all of its sections go to print every day, compers learn a lot about how to visually present written material.
+					Over the past decade, our Board has consistently been recognized annually by the Associate Collegiate Press, effectively pushed for an interactive website, and we&#39;re looking forward to working on other exciting projects, including a redesign of the daily paper.
+				</p>
+
+				<p>
+				The Design Comp is focused on you, and on developing a great relationship between you and the editors on the board. You will not only gain practical skills, but also an immediate social and professional network.
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

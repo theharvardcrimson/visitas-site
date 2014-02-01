@@ -1,0 +1,25 @@
+{% extends "base.html.tmp" %}
+
+{% block content %}
+	<div class="overlay">
+		<div class="page-title">
+			<h1>blog</h1>
+		</div>
+		<div>
+			<div class="text">
+				<p>
+					Are you hilarious? Witty? Mildly interesting to be around? If any of these apply to you, Blog is the place to be. We cover a variety of content, from Roving Reporter videos to House rankings to posts dedicated to our one and only Interim Dean Pfister (which we recently learned he enjoys reading!). Blog is one of the most well-read sections of The Crimson, and our posts have been picked up by national and international news outlets.
+				</p>
+				<p>
+					<b>Flyby</b> is the flagship blog of the Crimson and covers student life&mdash;we follow all things happening on campus, from Lamont to the Spee, and allow you to write about what most interests you.
+				</p>
+				<p>
+					The Crimson also has an <b>Admissions</b> Blog, which focuses directly on the college admissions process, getting to the heart of issues and giving advice to a worldwide audience looking to learn more about the world of college admissions.
+				</p>
+				<p>
+					Whatever your interests (journalism, satire, Andre, etc.), Blog will give you the space, training, and support to develop your own creative passions at 14p&mdash;just so long as it doesn&#39;t involve actual paper. But don&#39;t worry: we&#39;ll have gifs.
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

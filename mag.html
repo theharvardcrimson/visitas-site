@@ -1,66 +1,125 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link href="temp.css" rel="stylesheet" type="text/css" />
-		<link href="css/fonts.css" rel="stylesheet" type="text/css" />
-	<title>FM Comp</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    
+    <title>The Harvard Crimson | Technology Comp</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            // Activate mobile-friendly menu when clicking Sections link.
+            $('#masthead-nav-mobile a').click(function(e) {
+                e.preventDefault();
+                var nav = $('#masthead-nav');
+                var opening = nav.css('display') == 'none' || nav.is(':hidden');
+                nav.stop().slideToggle(300);
+                if (opening)
+                    $('#masthead-nav-mobile').stop().animate({boxShadow: '3px 3px 10px #aaaaaa'}, 100);
+                else
+                    $('#masthead-nav-mobile').stop().animate({boxShadow: 'none'}, 200);
+            });
+
+            $(window).resize(function() {
+                if ($(window).width() >= 480) {
+                    $('#masthead-nav').removeAttr('style');
+                }
+            });
+
+        });
+    </script>
+    
 </head>
-<body id="biz">
-	<header>
-	<div class="hwrapper">
-		<a class="logo" href="http://www.thecrimson.com/"><img src="logo.png" height="25" ></a></a>
-		<ul class="header-nav">
+<body>
+    <script type="text/javascript">
+      var _gaq=_gaq || [];
+      _gaq.push(['_setAccount', 'UA-33870617-1']);
+      _gaq.push(['_trackPageview']);
 
-			<li><a href="temp.html"> About Us </a> </li> 
-			<li><a href="news.html"> News </a> </li> 
-			<li><a href="biz.html"> Business </a></li>
-			<li><a href="tech.html"> Tech </a></li>
-			<li><a href="ed.html"> Editorial </a></li>
-			<li><a href="flyby.html"> Flyby </a></li>
-			<li><a href="arts.html"> Arts </a></li>
-			<li><a href="design.html"> Design </a></li>
-			<li><a href="od.html"> Online Design </a></li>
-			<li class="active"><a href="mag.html"> FM </a></li>
-			<li><a href="multi.html"> Multimedia </a></li>
-			<li><a href="sports.html"> Sports </a></li>
+      (function() {
+        var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true;
+        ga.src=('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+    <header>
+        <div id="masthead">
+            <div id="masthead-first-wrapper">
+                <div id="masthead-first">
+                    <div id="masthead-first-container">
+                        <h1><a href="/">The Harvard Crimson</a></h1>
+                    </div>
+                </div>
+            </div>
+            <div id="masthead-second">
+                <nav id="masthead-nav-mobile">
+                    <ul>
+                        <li><a href="#">Navigation</a></li>
+                    </ul>
+                </nav>
+                <nav id="masthead-nav" class="mobile-hidden">
+                    <ul>
+                        <li>
+                            <a href="/">About Us</a>
+                        </li>
+                        <li>
+                            <a href="/arts.html">Arts</a>
+                        </li>
+                        <li>
+                            <a href="/blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="/biz.html">Business</a>
+                        </li>
+                        <li>
+                            <a href="/design.html">Design</a>
+                        </li>
+                        <li>
+                            <a href="/ed.html">Editorial</a>
+                        </li>
+                        <li>
+                            <a href="/mag.html">Magazine</a>
+                        </li>
+                        <li>
+                            <a href="/news.html">News</a>
+                        </li>
+                        <li>
+                            <a href="/od.html">Online Design</a>
+                        </li>
+                        <li>
+                            <a href="/multi.html">Multimedia</a>
+                        </li>
+                        <li>
+                            <a href="/sports.html">Sports</a>
+                        </li>
+                        <li>
+                            <a href="/tech.html">Tech</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-
-		</ul>
+    
+	<div class="overlay">
+		<div class="page-title">
+			<h1>magazine</h1>
+		</div>
+		<div>
+			<div class="text">
+				<p>
+					If you&#39;ve ever wanted to write articles but aren&#39;t sure where among News, Arts, Sports, or Editorial your interests align, look no further than <b>Fifteen Minutes</b>, the Crimson&#39;s weekly magazine. FM&#39;s content ranges from short, humorous pieces to in-depth profiles and features: it's a veritable cornucopia of content. Oh, and we almost forgot: scrutinies. They&#39;re our weekly cover stories, and consistently rank among the most read articles on Crimson website. One word, three syllables: exposure.
+				</p>
+				<p>
+					There are a number of reasons you should comp Fifteen Minutes. We have the most freeform pieces, giving you ample opportunity to experiment and grow as a writer. Ask any writer who&#39;s comped multiple boards of the Crimson, and he/she will tell you that the FM comp is by far the most enjoyable. You&#39;re going to interact with other writers who are fascinated with their craft, and you&#39;re going to learn from them&mdash;whether you like it or not. We really hope you will.
+				</p>
+			</div>
+		</div>
 	</div>
-	</header>
-
-	<div class="top"><div class="test">Fifteen Minutes</div></div>
-
-			<div class="lines"></div>
-		<div class="vertical"></div>
-
-	<div class="bodycontent" id="bottom">
-
-			
-
-		<div class="testpt2"> <div>
-
-			<div class="testpt5"> Why FM?</div> <br>
-							<div class="fml">
-
-			If you’ve ever wanted to write articles but aren’t sure where among News, Arts, Sports, or Editorial your interests align, look no further than Fifteen Minutes, the Crimson’s weekly magazine. FM's content ranges from short, humorous pieces to in-depth profiles and features: it's a veritable cornucopia of content. Oh, and we almost forgot: scrutinies. They’re our weekly cover stories, and consistently rank among the most read articles on Crimson website. One word, three syllables: exposure.
-			
-			<br><br>
-
-			There are a number of reasons you should comp Fifteen Minutes. We have the most freeform pieces, giving you ample opportunity to experiment and grow as a writer. Ask any writer who’s comped multiple boards of the Crimson, and he/she will tell you that the FM comp is by far the most enjoyable. You’re going to interact with other writers who are fascinated with their craft, and you’re going to learn from them—whether you like it or not. We really hope you will.
-			</div>
-		</div>
-		</div>
-	<div class="text"> <div>
-				<div class="testpt3"> Requirements</div>
-				<div class="testpt4">TBA
-
-				</div>
-			</div>
-		</div>
 
 
 </body>
 </html>
-

@@ -1,5 +1,11 @@
-html {
-	background: #ba0600;
+#splash {
+	background: #8B0000;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
 
 .opening{
@@ -26,12 +32,12 @@ html {
 }
 
 
-#link {
-	display: none;
+#msg {
 	color: #FFF;
-	margin: auto;
+	margin-left: 10px;
 	position: absolute;
 	bottom: 10px;
+	cursor: pointer;
 }
 
 .cute{

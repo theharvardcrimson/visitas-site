@@ -1,0 +1,48 @@
+{% extends "base.html.tmp" %}
+
+{% block content %}
+	<div class="overlay">
+		<div class="page-title">
+			<h1>news</h1>
+		</div>
+		<div>
+			<div class="text">
+				<p>
+					They don't call it a <b>news</b>paper for nothing&hellip;
+				</p>
+				<p>
+					The News Board is the heart and soul of The Crimson. From bombs in Boston to fabricated bomb threats by students, we report the stories that the Harvard community and the public want to read. Writers on the News Board have access to top University officials and get to see their bylines run in our newspaper, printed day in and day out. To boot, we are a committed, close-knit community that extends from our undergraduate days to long past commencement. 
+				</p>
+				<p>
+					Whether you were editor of your high school newspaper or have never written an article before, the comp process is designed to provide the skills and mentorship necessary for becoming a top-notch reporter. To be elected to the best board at 14 Plympton, you must complete the following requirements: 
+					<ul>
+						<li>
+							Attend weekly comp seminars
+						</li>
+						<li>
+							Write eight daily stories
+						</li>
+						<li>
+							Write one feature
+						</li>
+						<li>
+							Write two blog posts
+						</li>
+						<li>
+							Attend one assistant night editor shift
+						</li>
+						<li>
+							Show up at a variety of social events
+						</li>
+					</ul>
+				</p>
+				<p>
+					Come and join the ranks of The Crimson's most prestigious board, which has produced the likes of presidents and Pulitzer Prize winners. There's a story out there just waiting for you to break it!   
+				</p>
+				<p>
+					Please contact comp directors Elizabeth Auritt (elizabeth.auritt@thecrimson.com) and Laura Reston (laura.reston@thecrimson.com) with any and all questions and concerns.
+				</p>
+			</div>
+		</div>
+	</div>
+{% endblock content %}
