@@ -9,7 +9,8 @@ env.loader = FileSystemLoader('.')
 
 files = subprocess.Popen('ls', stdout=subprocess.PIPE).stdout.read().split("\n")[0:-1]
 for fname in files:
-	if not fname == "base.html.tmp":
-		print fname
-		if re.match(r'^.+\.tmp$', fname) is not None:
-			open(fname[0:-4], 'w+').write(env.get_template(fname).render())
+    if not fname == "base.html.tmp":
+        print fname
+        if re.match(r'^.+\.tmp$', fname) is not None:
+            outpath = '/' + fname[0:-4]
+            open(fname[0:-4], 'w+').write(env.get_template(fname).render(__path__=outpath))

@@ -1,4 +1,5 @@
 #splash {
+    display: none;
 	background: #8B0000;
 	position: absolute;
 	z-index: 10;
@@ -8,29 +9,29 @@
 	right: 0;
 }
 
-.opening{
+.opening {
 	display: none;
-	padding-top: 200px;
-	margin: auto;
+	margin: 100px 0 0;
+	color: white;
+    font-family: 'Big Caslon', Georgia, serif;
+	font-size: 90px;
+    line-height: 90px;
+	text-align: center;
 }
 
-.opening img{
-	margin: auto;
-	margin-left: 100px;
-	position: center;
+#logo {
+    width: 300px;
 }
 
-
-
-#logo{
-	float: left;
-	padding: 7px 0 9px;
+.cute {
+	display: none;
+	color: #FFF;
+	position: relative;
+	text-align: center;
+	margin-right: 5%;
+	text-decoration: italic;
+	font-family: 'Colaborate Thin';
 }
-
-#logo img {
-	vertical-align: middle;
-}
-
 
 #msg {
 	color: #FFF;
@@ -38,14 +39,4 @@
 	position: absolute;
 	bottom: 10px;
 	cursor: pointer;
-}
-
-.cute{
-	display: none;
-	color: #FFF;
-	position: relative;
-	text-align: right;
-	margin-right: 5%;
-	text-decoration: italic;
-	font-family: 'Colaborate Thin';
 }
