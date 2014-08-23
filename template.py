@@ -42,6 +42,4 @@ for root, dirs, files in os.walk(cwd):
 				if not os.path.exists(out_name[:out_name.rfind('/')]):
 					os.makedirs(out_name[:out_name.rfind('/')])
 			with open(out_name, 'w+') as out_file:
-				# try: print(contents[4600:4622])
-				# except: pass
 				out_file.write(contents)
