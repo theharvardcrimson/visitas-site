@@ -29,6 +29,7 @@
                 <div id="masthead-first">
                     <div id="masthead-first-container">
                         <h1><a href="/">The Harvard Crimson</a></h1>
+                        <div id="masthead-subtitle">{{ subtitle }}</div id="masthead-subtitle">
                     </div>
                 </div>
             </div>

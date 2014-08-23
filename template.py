@@ -1,6 +1,7 @@
 #!/Users/sfishman/.venvs/general/bin/python
 from jinja2 import FileSystemLoader, Template
 from jinja2.environment import Environment
+from datetime import date
 import re
 import subprocess
 import os
@@ -11,6 +12,14 @@ cwd = os.getcwd()
 
 if not os.path.exists('rendered/'):
 	os.mkdir('rendered/')
+
+cur_year = date.today().year
+cur_month = date.today().month
+if cur_month <= 6:
+    cur_season = "Spring"
+else:
+    cur_season = "Fall"
+subtitle = "%s Comp %d" % (cur_season, cur_year)
 
 for root, dirs, files in os.walk(cwd):
 	if 'rendered' in dirs:
@@ -34,7 +43,7 @@ for root, dirs, files in os.walk(cwd):
 				else:
 					out_name = 'rendered/' + fname[:-4]
 				url_path = out_name[out_name.find('/'):out_name.rfind('/') + 1]
-				contents = env.get_template('/' + fname).render(__path__=url_path)
+				contents = env.get_template('/' + fname).render(__path__=url_path, subtitle=subtitle)
 			else:
 				out_name = 'rendered/' + fname
 				with open(fname) as orig:

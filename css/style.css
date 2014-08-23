@@ -90,6 +90,16 @@ header h1 a:hover, header h1 a:active, header h1 a:visited {
 	text-decoration: none;
 	color: white;
 }
+header #masthead-subtitle {
+	display: block;
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	color: #fff;
+	font-size: 1.2em;
+	margin-top: 5px;
+	margin-bottom: -4px;
+}
 
 #masthead {
 	zoom: 1;
