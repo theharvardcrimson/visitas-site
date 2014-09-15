@@ -14,7 +14,7 @@
         <img id="logo" src="/images/logo.svg">
         <div>The Harvard Crimson</div>
     </div>
-    <div class="cute"><em>Comp 2014</em></div>
+    <div class="cute"><em>{{ subtitle }}</em></div>
     <span id="msg">Click or press any key to continue</span>
 </div>
 {% endblock %}
