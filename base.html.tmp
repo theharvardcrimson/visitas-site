@@ -98,13 +98,6 @@
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/od/" %}
-                                <a class="active" href="/od/">Online Design</a>
-                            {% else %}
-                                <a href="/od/">Online Design</a>
-                            {% endif %}
-                        </li>
-                        <li>
                             {% if __path__ ==  "/multimedia/" %}
                                 <a class="active" href="/multimedia/">Multimedia</a>
                             {% else %}
@@ -126,7 +119,14 @@
                             {% endif %}
                         </li>
                         <li>
-                            <a target="_blank" href="https://docs.google.com/forms/d/1_SxDKQahG9zB0JaCjWRzwu-GZkO_utvxoz95RDDoBxk/viewform">Sign Up <img class="external" src="/images/external.png"></a>
+                            {% if __path__ ==  "/od/" %}
+                                <a class="active" href="/od/">Web Design</a>
+                            {% else %}
+                                <a href="/od/">Web Design</a>
+                            {% endif %}
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://docs.google.com/a/thecrimson.com/forms/d/1YYDfhR0jPX5skW_0r6tCtYRNq3OjMTpQPM_yOzCzChc/viewform">Sign Up <img class="external" src="/images/external.png"></a>
                         </li>
                     </ul>
                 </nav>
