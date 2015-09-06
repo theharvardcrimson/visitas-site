@@ -3,19 +3,16 @@
 {% block content %}
 	<div class="overlay">
 		<div class="page-title">
-			<h1>online design</h1>
+			<h1>web design</h1>
 		</div>
 		<div>
 			<div class="text">
 				<p>
-					The Online Design department of The Crimson puts together some of the most viewed content on <a href="http://www.thecrimson.com" target="_blank">thecrimson.com</a>. Online Design uses the latest in front-end web technology to tech an already compelling article and turn it into a digital storytelling experience. If you want to put a strong design sense and a little bit of code together to create something beautiful, you&rsquo;ve come to the right place. And if you&rsquo;ve never coded before, it&rsquo;s not a problem&mdash;we&rsquo;re here to teach you.
+					The Web Design department of The Crimson puts together some of the most viewed content on <a href="http://www.thecrimson.com" target="_blank">thecrimson.com</a>. Web Design uses the latest in front-end web technology to tech an already compelling article and turn it into a digital storytelling experience. If you want to put a strong design sense and a little bit of code together to create something beautiful, you&rsquo;ve come to the right place. And if you&rsquo;ve never coded before, it&rsquo;s not a problem&mdash;we&rsquo;re here to teach you.
 				</p>
 				<p>
 					Some of our past work includes:
 					<ul>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
-						<li><a href=""></a></li>
 						<li><a href="http://features.thecrimson.com/2013/frosh-survey/" target="_blank">The Freshman Survey</a></li>
 						<li><a href="http://features.thecrimson.com/2013/hpac/hpac.html" target="_blank">The Rise of HPAC</a></li>
 						<li><a href="http://features.thecrimson.com/2013/marathon/marathon.html" target="_blank">Harvard Strong</a></li>
@@ -25,7 +22,7 @@
 					</ul>
 				</p>
 				<p>
-					Online Design features consistently see an extremely high amount of views and are almost universally lauded both inside and outside of Harvard. If you want to help us make beautiful and immersive stories, come comp OD. The Tech + Online Design open house is on <strong>Thursday, February 6 from 7-9 p.m.</strong>, and we&rsquo;d love to see you there to talk about joining our team. If you have any questions or can&rsquo;t make it to the open house but still wish to comp, email the Online Design Comp Directors, Jake Freyer and Monica Chao at <a href="mailto:jake.freyer@thecrimson.com">jake.freyer@thecrimson.com</a> and <a href="mailto:lingyachao@college.harvard.edu">lingyachao@college.harvard.edu</a>, respectively.
+					If you want to help us make beautiful and immersive stories, come comp WD. The Tech + Web Design open house is on <strong>Thursday, September 10 from 7-8:30 p.m.</strong>, and we&rsquo;d love to see you there to talk about joining our team. If you have any questions or can&rsquo;t make it to the open house but still wish to comp, email the Web Design Comp Director, Fatma Akcay at <a href="mailto:fatmaakcay@college.harvard.edu">fatmaakcay@college.harvard.edu</a>.
 				</p>
 			</div>
 		</div>
