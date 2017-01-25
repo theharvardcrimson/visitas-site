@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="http://static.thecrimson.com/images/favicon.ico" rel="icon" type="image/x-icon" />
     {% block css %}{% endblock %}
     <title>The Harvard Crimson | Comp</title>
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
@@ -119,14 +120,7 @@
                             {% endif %}
                         </li>
                         <li>
-                            {% if __path__ ==  "/od/" %}
-                                <a class="active" href="/od/">Web Design</a>
-                            {% else %}
-                                <a href="/od/">Web Design</a>
-                            {% endif %}
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://docs.google.com/a/thecrimson.com/forms/d/1YYDfhR0jPX5skW_0r6tCtYRNq3OjMTpQPM_yOzCzChc/viewform">Sign Up <img class="external" src="/images/external.png"></a>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe_0sto5czzkv5Zzj3YlNugrBSvxgmN-wZvdHwwS3HljB7aBA/viewform">Sign Up <img class="external" src="/images/external.png"></a>
                         </li>
                     </ul>
                 </nav>
