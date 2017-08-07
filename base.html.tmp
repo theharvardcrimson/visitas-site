@@ -120,7 +120,7 @@
                             {% endif %}
                         </li>
                         <li>
-                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe_0sto5czzkv5Zzj3YlNugrBSvxgmN-wZvdHwwS3HljB7aBA/viewform">Sign Up <img class="external" src="/images/external.png"></a>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc8yfMyRDLt2C2qsiT1N8epjJCF_fneQMbv3ykMFxtuPfLqDA/viewform">Sign Up <img class="external" src="/images/external.png"></a>
                         </li>
                     </ul>
                 </nav>
