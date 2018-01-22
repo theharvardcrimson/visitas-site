@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
@@ -7,13 +7,13 @@
     <link href="http://static.thecrimson.com/images/favicon.ico" rel="icon" type="image/x-icon" />
     {% block css %}{% endblock %}
     <title>The Harvard Crimson | Comp</title>
-    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="/js/main.js"></script>
     {% block js %}{% endblock %}
 </head>
 <body>
-    <script type="text/javascript">
-      var _gaq=_gaq || [];
+    <script>
+      var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-33870617-1']);
       _gaq.push(['_trackPageview']);
 
@@ -30,7 +30,7 @@
                 <div id="masthead-first">
                     <div id="masthead-first-container">
                         <h1><a href="/">The Harvard Crimson</a></h1>
-                        <div id="masthead-subtitle">{{ subtitle }}</div id="masthead-subtitle">
+                        <div id="masthead-subtitle">{{ subtitle }}</div>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                             {% endif %}
                         </li>
                         <li>
-                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc8yfMyRDLt2C2qsiT1N8epjJCF_fneQMbv3ykMFxtuPfLqDA/viewform">Sign Up <img class="external" src="/images/external.png"></a>
+                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc8yfMyRDLt2C2qsiT1N8epjJCF_fneQMbv3ykMFxtuPfLqDA/viewform">Sign Up <img class="external" src="/images/external.png" alt="Crimson Logo"></a>
                         </li>
                     </ul>
                 </nav>

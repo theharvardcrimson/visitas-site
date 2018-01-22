@@ -11,7 +11,7 @@
 {% block addl_html %}
 <div id="splash">
     <div class="opening">
-        <img id="logo" src="/images/logo.svg">
+        <img id="logo" src="/images/logo.svg" alt="Crimson logo">
         <div>The Harvard Crimson</div>
     </div>
     <div class="cute"><em>{{ subtitle }}</em></div>
