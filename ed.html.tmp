@@ -14,7 +14,7 @@
 					Comping the Editorial Board is the best way to have your opinions published in The Crimson, so comp Editorial if you want your voice heard on campus and beyond. No previous experience with journalism is necessary.
 				</p>
 				<p>
-					Any questions? Want more information? Don&rsquo;t hesitate to contact our Editorial Comp Directors, Rachel Huebner (<a href="mailto:rachel.huebner@thecrimson.com">rachel.huebner@thecrimson.com</a>) or Ife Obayan (<a href="mailto:ifeoluwa.obayan@thecrimson.com">ifeoluwa.obayan@thecrimson.com</a>) with any and all questions and concerns.
+					Any questions? Want more information? Don&rsquo;t hesitate to contact our Editorial Comp Directors, {{ comp.editorial.dir1|comp_director }} or {{ comp.editorial.dir2|comp_director }} with any and all questions and concerns.
 				</p>
 			</div>
 		</div>

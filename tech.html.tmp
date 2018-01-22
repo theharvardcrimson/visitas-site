@@ -8,10 +8,10 @@
 		<div>
 			<div class="text">
 				<p>
-					While The Crimson has consistently published its content on paper for the past 142 years, the age of newsprint is quickly coming to close. As a result, the Technology department is becoming one of the most important and innovative places to be at The Crimson and at Harvard. In addition, the work we do on Tech will soon be the driver for The Crimson&rsquo;s primary revenue source as physical paper starts to become less relevant.
+					While The Crimson has consistently published its content on paper for the past {{ comp.num_years_crimson_existed }} years, the age of newsprint is quickly coming to close. As a result, the Technology department is becoming one of the most important and innovative places to be at The Crimson and at Harvard. In addition, the work we do on Tech will soon be the driver for The Crimson&rsquo;s primary revenue source as physical paper starts to become less relevant.
 				</p>
 				<p>
-					Working for Crimson Tech means that you&rsquo;re working on a website that sees 1.5 <em>million</em> pageviews per month. We run a django-based web app for <a href="http://www.thecrimson.com">thecrimson.com</a> as well as the various other technical needs of The Crimson. Whether you&rsquo;re into server infrastructure, database work, back-end coding, front-end coding, or almost anything else can you think of, we&rsquo;ve got a job for you. And if you've never coded before, you too can join tech and learn!
+					Working for Crimson Tech means that you&rsquo;re working on a website that sees {{ comp.monthly_page_views_millions }} <em>million</em> pageviews per month. We run a Django-based web app for <a href="http://www.thecrimson.com">thecrimson.com</a> as well as the various other technical needs of The Crimson. Whether you&rsquo;re into server infrastructure, database work, back-end coding, front-end coding, or almost anything else can you think of, we&rsquo;ve got a job for you. And if you've never coded before, you too can join tech and learn!
 				</p>
 				<p>
 					Recently, the tech department has:
@@ -28,7 +28,7 @@
 					The Tech Comp is designed to accommodate programmers with all levels of experience&mdash;many have joined the board before even finishing CS50, and others have come on with years of web programming experience. We tailor the comp to the individual and make sure everyone learns the tools they need without repeating things people have already seen.
 				</p>
 				<p>
-					If you have any questions or special circumstances you want to discuss, contact Engineering Managers Lydia Goldberg (<a href="mailto:lydia.goldberg@thecrimson.com">lydia.goldberg@thecrimson.com</a>) and Gabbi Merz (<a href="mailto:gabbi.merz@thecrimson.com">gabbi.merz@thecrimson.com</a>).
+					If you have any questions or special circumstances you want to discuss, contact Engineering Managers {{ comp.technology.dir1|comp_director }} and {{ comp.technology.dir2|comp_director }}.
 				</p>
 			</div>
 		</div>

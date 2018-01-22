@@ -17,7 +17,7 @@
 					Whatever your interests (journalism, satire, or more, etc.), Blog will give you the space, training, and support to develop your own creative passions at 14p&mdash;just so long as it doesn&#39;t involve actual paper. But don&#39;t worry: we&#39;ll have gifs.
 				</p>
 				<p>
-					Any questions? Want more information? Don&rsquo;t hesitate to contact our Blog Comp Director, Allison Yan (<a href="mailto:allison.yan@thecrimson.com">allison.yan@thecrimson.com</a>) with any and all questions and concerns.
+					Any questions? Want more information? Don&rsquo;t hesitate to contact our Blog Comp Director, {{ comp.blog.dir1|comp_director }} with any and all questions and concerns.
 				</p>
 			</div>
 		</div>

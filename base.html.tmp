@@ -120,7 +120,7 @@
                             {% endif %}
                         </li>
                         <li>
-                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc8yfMyRDLt2C2qsiT1N8epjJCF_fneQMbv3ykMFxtuPfLqDA/viewform">Sign Up <img class="external" src="/images/external.png" alt="Crimson Logo"></a>
+                            <a target="_blank" href="{{ comp.google_doc_signup }}">Sign Up <img class="external" src="/images/external.png" alt="Crimson Logo"></a>
                         </li>
                     </ul>
                 </nav>

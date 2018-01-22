@@ -5,10 +5,16 @@ from datetime import date
 import re
 import subprocess
 import os
+import comp_info
 
 env = Environment()
 env.loader = FileSystemLoader('.')
 cwd = os.getcwd()
+
+def comp_director(director):
+	return '{name} (<a href="mailto:{email}">{email}</a>)'.format(**director)
+
+env.filters['comp_director'] = comp_director
 
 if not os.path.exists('rendered/'):
 	os.mkdir('rendered/')
@@ -20,6 +26,10 @@ if cur_month <= 6:
 else:
     cur_season = "Fall"
 subtitle = "%s Comp %d" % (cur_season, cur_year)
+
+
+
+
 
 for root, dirs, files in os.walk(cwd):
 	if 'rendered' in dirs:
@@ -44,8 +54,12 @@ for root, dirs, files in os.walk(cwd):
 					out_name = 'rendered/' + fname[:-4]
 				url_path = out_name[out_name.find('/'):out_name.rfind('/') + 1]
 				template = env.get_template('/' + fname)
-				contents = template.render(__path__=url_path, subtitle=subtitle)
-				contents = contents.encode()
+				contents = template.render(
+					__path__=url_path,
+					subtitle=subtitle,
+					comp=comp_info,
+					comp_director=comp_director
+				).encode()
 			else:
 				out_name = 'rendered/' + fname
 				with open(fname, 'rb') as orig:

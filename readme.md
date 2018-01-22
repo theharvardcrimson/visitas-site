@@ -22,7 +22,7 @@
 ## Development
 * In the home directory, run `./template.py`. This generates static files that are stored in the **./rendered/** directory.
 
-* `cd` into the **rendered** directory and run `python -m http.server`. You can now visit <http://localhost:8000> to view the website. Note: this part will not work in Python 2.
+* `cd` into the **rendered** directory and run `python -m http.server`. You can now visit <http://localhost:8000> to view the website. This command will not work in Python 2.
 
 * Note: you will have to re-run `./template.py` in the repo's home directory in order to regenerate the static files. They will not be automatically updated.
 

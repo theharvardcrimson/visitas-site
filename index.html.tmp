@@ -27,10 +27,10 @@
 		<div>
 			<div class="text">
 				<p>
-					Welcome to the Fall 2017 comp for The Harvard Crimson! Regardless of your passion, we have nine different boards, 11 different comps, and 144 years of experience waiting for you at 14 Plympton St. The Crimson is not only the nation&rsquo;s oldest continuously published daily newspaper and the only breakfast-table daily newspaper in Cambridge, Mass., but it&rsquo;s also the premier student organization at Harvard College, offering transformative experiences in everything from journalism to advertising to photography&mdash;the list goes on.
+					Welcome to the {{ comp.season }} {{ comp.year }} comp for The Harvard Crimson! Regardless of your passion, we have ten different boards, 12 different comps, and {{ comp.num_years_crimson_existed }} years of experience waiting for you at 14 Plympton St. The Crimson is not only the nation&rsquo;s oldest continuously published daily newspaper and the only breakfast-table daily newspaper in Cambridge, Mass., but it is also the premier student organization at Harvard College, offering transformative experiences in everything from journalism to advertising to photography&mdash;the list goes on.
 				</p>
 				<p>
-					<a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc8yfMyRDLt2C2qsiT1N8epjJCF_fneQMbv3ykMFxtuPfLqDA/viewform">Sign up to comp here</a>, and be sure to RSVP on Facebook.
+					<a target="_blank" href="{{ comp.google_doc_signup }}">Sign up to comp here</a>, and be sure to RSVP on Facebook.
 				</p>
 				<p>
 					Don&#39;t believe us?
@@ -42,13 +42,13 @@
 					Still not sure?
 				</p>
 				<p>
-					Consider The Crimson&rsquo;s magnitude and reach as a newspaper and a company. Its million-dollar business. Its website that, in 2016, got 15 million pageviews (meaning readers spent XX million years on <a href="http://www.thecrimson.com/">thecrimson.com</a> last year). There are few other chances to be a part of something this big, far-reaching, or relevant.
+					Consider The Crimson&rsquo;s magnitude and reach as a newspaper and a company. Its million-dollar business. Its website that, in {{ comp.year - 1 }}, got {{ comp.yearly_page_views_millions }} million pageviews (meaning readers spent {{ comp.yearly_page_time_spent_years }} years on <a href="http://www.thecrimson.com/">thecrimson.com</a> last year). There are few other chances to be a part of something this big, far-reaching, or relevant.
 				</p>
 				<p>
 					Not convinced?
 				</p>
 				<p>
-					Come see for yourself! Our open houses will be at our building (14 Plympton St., just north of Adams House, and just south of Mass. Ave.) in early September, dates to be announced.
+					Come see for yourself! Our open houses will be at our building (14 Plympton St., just north of Adams House, and just south of Mass. Ave.) on {{ comp.open_house }}.
 				</p>
 				<h3>
 					FINANCIAL AID
@@ -57,7 +57,7 @@
 					Worried that you won&#39;t be able to spend time on The Crimson because you think you&#39;ll need a paying job? We can help. The Crimson&#39;s Financial Aid Program offers limited but substantial compensation to staff members with demonstrated financial need. It&#39;s meant to ensure that students who would otherwise need a term-time job can be Crimson editors, and it&#39;s part of our efforts to make sure that all Harvard students have the opportunity to enjoy and learn from the experience of working here, regardless of their socioeconomic background.
 				</p>
 				<p>
-					Any questions? Want more information? Don&rsquo;t hesitate to contact Crimson President Derek Choi (<a href="mailto:president@thecrimson.com">president@thecrimson.com</a>) any and all questions about the program.
+					Any questions? Want more information? Don&rsquo;t hesitate to contact Crimson President {{ comp.president }} (<a href="mailto:president@thecrimson.com">president@thecrimson.com</a>) any and all questions about the program.
 				</p>
 			</div>
 		</div>

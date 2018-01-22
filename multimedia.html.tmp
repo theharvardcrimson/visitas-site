@@ -17,10 +17,10 @@
 					Throughout the Multimedia Comp, you will learn:
 					<ul>
 						<li>
-							How to manually use a DSLR camera for taking both photographs and video footage, as well as using more complex video cameras and equipment. 
+							How to manually use a DSLR camera for taking both photographs and video footage, as well as using more complex video cameras and equipment.
 						</li>
 						<li>
-							How to use Adobe Photoshop and Final Cut Pro. 
+							How to use Adobe Photoshop and Final Cut Pro.
 						</li>
 						<li>
 							How to take editorial footage.
@@ -37,7 +37,7 @@
 					Whether you&rsquo;re someone who has only ever used the camera on your iPhone, or you&rsquo;re a VES concentrator working on a film thesis, there is a place for you on the Crimson&rsquo;s Multimedia board. In addition to everything mentioned above, you will have the opportunity to contribute to the nation's oldest continuously published daily college newspaper with a fantastic group of people&mdash;and have a great time doing it. We hope you join us.
 				</p>
 				<p>
-					Any questions? Want more information? Don&rsquo;t hesitate to contact our Multimedia Comp Directors, Iulianna Taritsa (<a href="mailto:iulianna.taritsa@thecrimson.com">iulianna.taritsa@thecrimson.com</a>) and Margaret Ross (<a href="mailto:margaret.ross@thecrimson.com">margaret.ross@thecrimson.com</a>) with any and all questions and concerns.
+					Any questions? Want more information? Don&rsquo;t hesitate to contact our Multimedia Comp Directors, {{ comp.multimedia.dir1|comp_director }} and {{ comp.multimedia.dir2|comp_director }} with any and all questions and concerns.
 				</p>
 			</div>
 		</div>

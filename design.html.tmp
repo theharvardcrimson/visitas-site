@@ -14,31 +14,31 @@
 					The Design Comp teaches some of the most marketable skills around: layout with Adobe InDesign, photo manipulation with Adobe Photoshop, and graphic creation with Adobe Illustrator, as well as the fundamental elements and principles of layout and design. Absolutely no previous experience is needed!
 				</p>
 				<p>
-					This year, we&rsquo;re offering three tracks: print, web, and illustration. Regardless of your interest, the Design Board has a place for you. 
+					This year, we&rsquo;re offering three tracks: print, web, and illustration. Regardless of your interest, the Design Board has a place for you.
 				</p>
 				<p>
-					The <strong>print design</strong> comp will teach you how to create an eye-catching front page or a gorgeous magazine spread. After the comp, you&rsquo;ll be responsible for the professional presentation of The Crimson&rsquo;s publications, including the front and feature pages of the daily paper, the arts supplement, and the FM magazine. We lay out pages and prepare all graphs and graphics. 
+					The <strong>print design</strong> comp will teach you how to create an eye-catching front page or a gorgeous magazine spread. After the comp, you&rsquo;ll be responsible for the professional presentation of The Crimson&rsquo;s publications, including the front and feature pages of the daily paper, the arts supplement, and the FM magazine. We lay out pages and prepare all graphs and graphics.
 				</p>
 				<p>
-					The <strong>web design</strong> track will give you hands-on experience with a website that got 15 million page views last year. Help us design, redesign, update, and tweak an online publication that readers spent 67 years reading in 2016. 
+					The <strong>web design</strong> track will give you hands-on experience with a website that got {{ comp.yearly_page_views_millions }} million page views last year. Help us design, redesign, update, and tweak an online publication that readers spent {{ comp.yearly_page_time_spent_years }} years reading in {{ comp.year - 1 }}.
 				</p>
 				<p>
-					The <strong>illustration</strong> track will prepare you to draw an illustration on the front page that impresses a reader or a cartoon that succinctly sums us a campus debate. We&rsquo;ll expose you to different styles of visual art and the many opportunities at The Crimson for publishing it. 
+					The <strong>illustration</strong> track will prepare you to draw an illustration on the front page that impresses a reader or a cartoon that succinctly sums us a campus debate. We&rsquo;ll expose you to different styles of visual art and the many opportunities at The Crimson for publishing it.
 				</p>
 				<p>
-					All three tracks involve weekly meetings, training sessions with design editors, exercises, and social events within the Design Board and The Harvard Crimson. Compers will complete both exercises and projects that allow them to showcase their new design skills and knowledge, as well as real published designs with the guidance of editors. After graduating from the comp, newly elected editors will work closely with one section of The Crimson (Sports, FM, Arts, or the Daily), or assist various boards with web content or illustrative graphics.
+					All three tracks involve weekly meetings, training sessions with design editors, exercises, and social events within the Design Board and The Harvard Crimson. Compers will complete both exercises and projects that allow them to showcase their new design skills and knowledge, as well as real published designs with the guidance of editors. After graduating from the comp, newly elected editors will work closely with one section of The Crimson (Sports, FM, Arts, or the daily), or assist various boards with web content or illustrative graphics.
 				</p>
 				<p>
-					The Design Comp is focused on you, and on developing a great relationship between you and the editors on the board. You will not only gain practical skills, but also an immediate social and professional network. 
+					The Design Comp is focused on you, and on developing a great relationship between you and the editors on the board. You will not only gain practical skills, but also an immediate social and professional network.
 				</p>
 				<p>
-					Any questions? Want more information? Don&rsquo;t hesitate to contact our Design Comp Directors, Bryan Peacker (<a href="bryan.peacker@thecrimson.com">bryan.peacker@thecrimson.com</a>) and Simon Sun (<a href="simon.sun@thecrimson.com">simon.sun@thecrimson.com</a>) with any and all questions and concerns.
+					Any questions? Want more information? Don&rsquo;t hesitate to contact our Design Comp Directors.
 				</p>
 				<p>
-					For specific questions about the Web Design track, contact Comp Director Humza Tahir (<a href="humza.tahir@thecrimson.com">humza.tahir@thecrimson.com</a>).
+					For specific questions about the Web Design track, contact Comp Director {{ comp.design.web.dir1|comp_director }}.
 				</p>
 				<p>
-					For specific questions about the Illustration track, contact Comp Directors Maria H. Park (<a href="maria.park@thecrimson.com">maria.park@thecrimson.com</a>) and Mai-Linh Ton (<a href="mai-linh.ton@thecrimson.com">mai-linh.ton@thecrimson.com</a>).
+					For specific questions about the Illustration track, contact Comp Directors {{ comp.design.illustration.dir1|comp_director }} and {{ comp.design.illustration.dir2|comp_director }}.
 				</p>
 			</div>
 		</div>
