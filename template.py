@@ -25,7 +25,7 @@ if cur_month <= 6:
     cur_season = "Spring"
 else:
     cur_season = "Fall"
-subtitle = "%s Comp %d" % (cur_season, cur_year)
+subtitle = "Fall Comp %d" % (cur_year)
 
 
 

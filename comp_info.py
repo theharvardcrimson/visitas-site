@@ -1,5 +1,5 @@
 year = 2018
-season = 'Spring'
+season = 'Fall'
 num_years_crimson_existed = '145'
 
 monthly_page_views_millions = '1.7'
@@ -7,7 +7,7 @@ yearly_page_views_millions = '17.5'
 yearly_page_time_spent_years = '36'
 
 open_house = 'January 29 and 31, at 7 PM'
-google_doc_signup = 'https://goo.gl/forms/ZkcVPWoS4l4MVqGq2'
+google_doc_signup = 'https://goo.gl/forms/VZ5TjyqeyWBHRmDk2'
 
 president = 'Derek G. Xiao'
 managing_editor = 'Hannah Natanson'
