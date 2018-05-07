@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="/css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="/css/fonts.css" rel="stylesheet" type="text/css"/>
+  <link href="http://static.thecrimson.com/images/favicon.ico" rel="icon" type="image/x-icon" />
+  <title>The Harvard Crimson | Comp</title>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="/js/main.js"></script>
+</head>
+<body>
+  <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33870617-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga=document.createElement('script'); ga.type='text/javascript'; ga.async=true;
+      ga.src=('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <header>
+    <div id="masthead">
+      <div id="masthead-first-wrapper">
+        <div id="masthead-first">
+          <div id="masthead-first-container">
+            <h1><a href="/">The Harvard Crimson</a></h1>
+            <div id="masthead-subtitle">{{ site.subtitle }}</div>
+          </div>
+        </div>
+      </div>
+      <div id="masthead-second">
+        {% include navbar.html %}
+      </div>
+    </div>
+  </header>
+  {{ content }}
+</body>
+</html>

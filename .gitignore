@@ -3,4 +3,4 @@
 rendered
 .DS_Store
 s3_website.yml
-Gemfile.lock
+_site
