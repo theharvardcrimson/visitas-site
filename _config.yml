@@ -57,9 +57,8 @@ blog:
 
 business:
   dir1:
-    name: Jack Yoon
-    email: jack.yoon@thecrimson.com
-
+    name: Jonathan V. Garzon
+    email: jonathan.garzon@thecrimson.com
   dir2:
     name: Charlie B. Zhu
     email: charlie.zhu@thecrimson.com
@@ -103,17 +102,19 @@ news:
 
 multimedia:
   dir1:
-    name: Iulianna Taritsa
-    email: iulianna.taritsa@thecrimson.com
-
+    name: Kai R. McNamee
+    email: kai.mcnamee@thecrimson.com
   dir2:
-    name: Margaret Ross
+    name: Margaret F. Ross
     email: margaret.ross@thecrimson.com
 
 sports:
   dir1:
-    name: Kimberley Arango
-    email: kim.arango@thecrimson.com
+    name: Joseph W. Minatel
+    email: joseph.minatel@thecrimson.com
+  dir2:
+    name: Henry Zhu
+    email: henry.zhu@thecrimson.com
 
 technology:
   dir1:
