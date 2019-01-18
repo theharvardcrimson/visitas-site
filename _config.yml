@@ -24,102 +24,105 @@ nav:
   - text: Tech
     url: /tech/
 
-season: Fall
-year: 2018
-subtitle: Fall Comp 2018
+season: Spring
+year: 2019
+subtitle: Spring Comp 2019
 
-num_years_crimson_existed: 145
+num_years_crimson_existed: 146
 
-monthly_page_views_millions: 1.7
-yearly_page_views_millions: 17.5
-yearly_page_time_spent_years: 36
+monthly_page_views_millions: 1.3
+yearly_page_views_millions: 15.1
+yearly_page_time_spent_years: 58
 
-open_house: September 10 and 12, at 7 PM
-google_doc_signup: https://goo.gl/forms/VZ5TjyqeyWBHRmDk2
+google_doc_signup: https://goo.gl/forms/Swn0CGPMtzV1PrHo1
 facebook_rsvp_link: https://www.facebook.com/events/293141134750267/
 
-president: Derek G. Xiao
-managing_editor: Hannah Natanson
-business_manager: Nathan Y. Lee
+president: Kristine E. Guillaume
+managing_editor: Angela N. Fu
+business_manager: Charlie B. Zhu
 
 arts:
   dir1:
-    name: Kaylee S. Kim
-    email: kaylee.kim@thecrimson.com
+    name: Liana E. Chow
+    email: liana.chow@thecrimson.com
   dir2:
-    name: Caroline A. Tsai
-    email: caroline.tsai@thecrimson.com
+    name: Allison J. Scharmann
+    email: allison.scharmann@thecrimson.com
 
 blog:
   dir1:
-    name: Sophie G. Garrett
-    email: sophie.garrett@thecrimson.com
+    name: Claire J. Hoffman
+    email: claire.hoffman@thecrimson.com
+  dir2:
+    name: Linda Lee
+    email: linda.lee@thecrimson.com
 
 business:
   dir1:
     name: Jonathan V. Garzon
     email: jonathan.garzon@thecrimson.com
   dir2:
-    name: Charlie B. Zhu
-    email: charlie.zhu@thecrimson.com
+    name: Joanne Lee
+    email: joanne.lee@thecrimson.com
 
 design:
   web:
     dir1:
-      name: Akhil S. Waghmare
-      email: akhil.waghmare@thecrimson.com
+      name: Hanna Kim
+      email: hanna.kim@thecrimson.com
   illustration:
     dir1:
-      name: Danukshi A. Mudannayake
-      email: danukshi.mudannayake@thecrimson.com
-    dir2:
-      name: Maria H. Park
-      email: maria.park@thecrimson.com
+      name: Isabella C. Aslarus
+      email: isabella.aslarus@thecrimson.com
+  print:
+    dir1:
+      name: Truelian Lee
+      email: truelian.lee@thecrimson.com
 
 editorial:
   dir1:
+    name: Romy Dolgin
+    email: romy.dolgin@thecrimson.com
+  dir2:
     name: Elijah T. Ezeji-Okoye
     email: elijah.ezeji-okoye@thecrimson.com
-  dir2:
-    name: Shireen Younus
-    email: shireen.younus@thecrimson.com
 
 magazine:
   dir1:
-    name: Norah M. Murphy
-    email: norah.murphy@thecrimson.com
+    name: Andrew W.D. Aoyama
+    email: andrew.aoyama@thecrimson.com
   dir2:
-    name:  Drew C. Pendergrass
-    email: drew.pendergrass@thecrimson.com
+    name:  Nina H. Pasquini
+    email: nina.pasquini@thecrimson.com
 
 news:
   dir1:
-    name: Joshua J. Florence
-    email: joshua.florence@thecrimson.com
+    name: Michael E. Xie
+    email: michael.xie@thecrimson.com
   dir2:
-    name: Kenton K. Shimozaki
-    email: kenton.shimozaki@thecrimson.com
+    name: Luke W. Xu
+    email: luke.xu@thecrimson.com
 
 multimedia:
   dir1:
-    name: Kai R. McNamee
-    email: kai.mcnamee@thecrimson.com
+    name: Allison G. Lee
+    email: allison.lee@thecrimson.com
   dir2:
-    name: Margaret F. Ross
-    email: margaret.ross@thecrimson.com
+    name: Amy Y. Li
+    email: amy.li@thecrimson.com
 
 sports:
   dir1:
-    name: Joseph W. Minatel
-    email: joseph.minatel@thecrimson.com
+    name: Amir Mamdani
+    email: amir.mamdani@thecrimson.com
   dir2:
-    name: Henry Zhu
-    email: henry.zhu@thecrimson.com
+    name: Eamon J. McLoughlin
+    email: eamon.mcloughlin@thecrimson.com
 
 technology:
   dir1:
-    name: Richard M. Wang
-    email: richard.m.wang@thecrimson.com
-  dir2:
     name: Nicholas F. Wong
     email: nicholas.wong@thecrimson.com
+  dir2:
+    name: William Y. Yao
+    email: william.yao@thecrimson.com
