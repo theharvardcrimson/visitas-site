@@ -23,6 +23,8 @@ nav:
     url: /sports/
   - text: Tech
     url: /tech/
+  - text: Financial Aid
+    url: /financial-aid/
 
 season: Spring
 year: 2020
@@ -34,7 +36,7 @@ monthly_page_views_millions: 1.3
 yearly_page_views_millions: 14.6
 yearly_page_time_spent_years: 58
 
-google_doc_signup: https://forms.gle/1BAPt9ofAbXGv7B58
+google_doc_signup: https://forms.gle/5mKu582i859z7Dtw8
 facebook_rsvp_link: https://www.facebook.com/events/447740999149311/
 
 president: Kristine E. Guillaume
@@ -51,78 +53,84 @@ arts:
 
 blog:
   dir1:
-    name: Claire J. Hoffman
-    email: claire.hoffman@thecrimson.com
+    name: Peyton A. Jones
+    email: peyton.jones@thecrimson.com
   dir2:
-    name: Linda Lee
-    email: linda.lee@thecrimson.com
+    name: Rachel L. Reynolds
+    email: rachel.reynolds@thecrimson.com
 
 business:
   dir1:
-    name: Jonathan V. Garzon
-    email: jonathan.garzon@thecrimson.com
+    name: Owen F. Searle
+    email: owen.searle@thecrimson.com
   dir2:
-    name: Joanne Lee
-    email: joanne.lee@thecrimson.com
+    name: Mark L. Xu
+    email: mark.xu@thecrimson.com
 
 design:
   web:
     dir1:
-      name: Hanna Kim
-      email: hanna.kim@thecrimson.com
+      name: Caitlin Lam
+      email: caitlin.lam@thecrimson.com
+    dir2:
+      name: Jason Oh
+      email: jason.oh@thecrimson.com
   illustration:
     dir1:
       name: Isabella C. Aslarus
       email: isabella.aslarus@thecrimson.com
   print:
     dir1:
-      name: Truelian Lee
-      email: truelian.lee@thecrimson.com
+      name: James S. Bikales
+      email: james.bikales@thecrimson.com
+    dir2:
+      name: Cat D. Hyeon
+      email: cat.hyeon@thecrimson.com
 
 editorial:
   dir1:
-    name: Romy Dolgin
-    email: romy.dolgin@thecrimson.com
+    name: Guillermo S. Hava
+    email: guillermo.hava@thecrimson.com
   dir2:
-    name: Elijah T. Ezeji-Okoye
-    email: elijah.ezeji-okoye@thecrimson.com
+    name: Woojin Lim
+    email: woojin.lim@thecrimson.com
 
 magazine:
   dir1:
-    name: Andrew W.D. Aoyama
-    email: andrew.aoyama@thecrimson.com
+    name: Maya G. McDougall
+    email: maya.mcdougall@thecrimson.com
   dir2:
-    name: Nina H. Pasquini
-    email: nina.pasquini@thecrimson.com
+    name: Olivia G. Oldham
+    email: olivia.oldham@thecrimson.com
 
 news:
   dir1:
-    name: Michael E. Xie
-    email: michael.xie@thecrimson.com
+    name: Ruth A. Hailu
+    email: ruth.hailu@thecrimson.com
   dir2:
-    name: Luke W. Xu
-    email: luke.xu@thecrimson.com
+    name: Sanjana L. Narayanan
+    email: sanjana.narayanan@thecrimson.com
 
 multimedia:
   dir1:
-    name: Allison G. Lee
-    email: allison.lee@thecrimson.com
+    name: Naomi S. Castellon-Perez
+    email: naomi.castellon-perez@thecrimson.com
   dir2:
-    name: Amy Y. Li
-    email: amy.li@thecrimson.com
+    name: Amanda Y. Su
+    email: amanda.su@thecrimson.com
 
 sports:
   dir1:
-    name: Amir Mamdani
-    email: amir.mamdani@thecrimson.com
+    name: Lev Cohen
+    email: lev.cohen@thecrimson.com
   dir2:
-    name: Eamon J. McLoughlin
-    email: eamon.mcloughlin@thecrimson.com
+    name: James Joyce
+    email: james.joyce@thecrimson.com
 
 technology:
   dir1:
-    name: Nicholas F. Wong
-    email: nicholas.wong@thecrimson.com
+    name: Richard A. Xu
+    email: richard.xu@thecrimson.com
   dir2:
-    name: William Y. Yao
-    email: william.yao@thecrimson.com
+    name: Zuzanna Skoczylas
+    email: zuzanna.skoczylas@thecrimson.com
