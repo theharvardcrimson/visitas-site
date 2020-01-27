@@ -24,14 +24,14 @@ nav:
   - text: Tech
     url: /tech/
 
-season: Fall
-year: 2019
-subtitle: Fall Comp 2019
+season: Spring
+year: 2020
+subtitle: Spring Comp 2020
 
 num_years_crimson_existed: 146
 
 monthly_page_views_millions: 1.3
-yearly_page_views_millions: 15.1
+yearly_page_views_millions: 14.6
 yearly_page_time_spent_years: 58
 
 google_doc_signup: https://forms.gle/1BAPt9ofAbXGv7B58
@@ -43,11 +43,11 @@ business_manager: Charlie B. Zhu
 
 arts:
   dir1:
-    name: Liana E. Chow
-    email: liana.chow@thecrimson.com
+    name: Kalos K. Chu
+    email: kalos.chu@thecrimson.com
   dir2:
-    name: Allison J. Scharmann
-    email: allison.scharmann@thecrimson.com
+    name: Joy C. Ashford
+    email: joy.ashford@thecrimson.com
 
 blog:
   dir1:
