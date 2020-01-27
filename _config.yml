@@ -23,8 +23,6 @@ nav:
     url: /sports/
   - text: Tech
     url: /tech/
-  - text: Financial Aid
-    url: /financial-aid/
 
 season: Spring
 year: 2020
@@ -37,9 +35,9 @@ yearly_page_views_millions: 14.6
 yearly_page_time_spent_years: 58
 
 google_doc_signup: https://forms.gle/5mKu582i859z7Dtw8
-facebook_rsvp_link: https://www.facebook.com/events/447740999149311/
+facebook_rsvp_link:
 
-president: Kristine E. Guillaume
+president: Aidan F. Ryan
 managing_editor: Angela N. Fu
 business_manager: Charlie B. Zhu
 
