@@ -26,6 +26,8 @@
 
 * If you update the information in `_config.yml`, you _will_ need to restart the server.
 
+* Important: if you wish to make changes to html files, do not make these changes in _site. Foe example, work on "sports.html" instead of _site/sports/index.html
+
 ## Deployment
 * Since this website is hosted with GitHub Pages, you simply need to commit and push your changes to the `master` branch. This will automatically start a build process (note: this is only because GitHub Pages has automatic support for Jekyll).
 
