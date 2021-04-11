@@ -25,8 +25,8 @@ nav:
     url: /tech/
 
 season: Spring
-year: 2020
-subtitle: Visitas 2020
+year: 2021
+subtitle: Visitas 2021
 
 num_years_crimson_existed: 146
 
@@ -34,36 +34,36 @@ monthly_page_views_millions: 1.3
 yearly_page_views_millions: 14.6
 yearly_page_time_spent_years: 58
 
-google_doc_signup: https://docs.google.com/forms/d/e/1FAIpQLSem249QwghGi1LttXL98PicHMp8io8NV5Nugij8eAK3Dr23PA/viewform
+google_doc_signup: https://docs.google.com/forms/d/e/1FAIpQLSeOis9koseUJtsMRrABikrl_-rJB3UTXffO2-YqzfcqusURHQ/viewform?usp=sf_link
 facebook_rsvp_link: https://www.facebook.com/events/515215159346903/
 
-president: Aidan F. Ryan
-managing_editor: Angela N. Fu
-business_manager: Charlie B. Zhu
+president: Amanda Y. Su
+managing_editor: James S. Bikales
+business_manager: Melissa Du
 
 arts:
   dir1:
-    name: Kalos K. Chu
-    email: kalos.chu@thecrimson.com
+    name: Sofia Andrade
+    email: sofia.andrade@thecrimson.com
   dir2:
-    name: Joy C. Ashford
-    email: joy.ashford@thecrimson.com
+    name: Joseph P. Kelly
+    email: joseph.kelly@thecrimson.com
 
 blog:
   dir1:
-    name: Peyton A. Jones
-    email: peyton.jones@thecrimson.com
+    name: Janani Sekar
+    email: janani.sekar@thecrimson.com
   dir2:
-    name: Rachel L. Reynolds
-    email: rachel.reynolds@thecrimson.com
+    name: Ellen S. Deng
+    email: ellen.deng@thecrimson.com
 
 business:
   dir1:
-    name: Owen F. Searle
-    email: owen.searle@thecrimson.com
+    name: Juliette B. Low Fleury
+    email: juliette.lowfleury@thecrimson.com
   dir2:
-    name: Mark L. Xu
-    email: mark.xu@thecrimson.com
+    name: Samuel H. Carter
+    email: samuel.carter@thecrimson.com
 
 design:
   web:
